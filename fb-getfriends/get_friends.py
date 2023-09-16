@@ -1,3 +1,6 @@
+#  get data friends from facebook
+#  url = "https://graph.facebook.com/" + f_id + "/?fields&access_token=" + access_token
+
 import requests,json
 from requests.api import get
 
