@@ -1,3 +1,6 @@
+# source = $"api_key=882a8490361da98702bf97a021ddc14dcredentials_type=passwordemail={email}format=JSONmethod=auth.loginpassword={pass}v=1.062f8ce9f74b12f84c123cc23437a4a32";
+# https://api.facebook.com/restserver.php?api_key=882a8490361da98702bf97a021ddc14d&credentials_type=password&email={email}&format=JSON&method=auth.login&password={pass}&v=1.0&sig={hash}
+
 import requests, hashlib, json
 
 user = "phone or email"
